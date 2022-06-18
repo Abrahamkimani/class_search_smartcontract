@@ -1,0 +1,11 @@
+[package]
+name = "class_search_smartcontract"
+version = "0.1.0"
+authors = ["Abraham Kimani <abrahamkuria9@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+near-sdk ="4.0.0-pre.4"
+
