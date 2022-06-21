@@ -41,6 +41,7 @@ impl Default for Attendance {
     }
 }
  
+#[near_bindgen]
 impl Attendance {
     pub fn register_class(&mut self, name: String, date: String) {
         let class_len = self.classes.len() + 1;
